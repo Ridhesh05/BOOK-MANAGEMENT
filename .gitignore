@@ -1,0 +1,8 @@
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+

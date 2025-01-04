@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "title": "Psychology of Money",
+        "author": "James",
+        "price": "600",
+        "image_url": "https://m.media-amazon.com/images/I/51WlKyjsEuL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Think and Grow Rich",
+        "author": "Napoleon Hill",
+        "price": "500",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51Y8jwGiebL._SX328_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Rich Dad Poor Dad",
+        "author": "Robert T. Kiyosaki",
+        "price": "700",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "price": "550",
+        "image_url": "https://prodimage.images-bn.com/pimages/9780735211292_p0_v5_s600x595.jpg"
+    },
+    {
+        "id": "5",
+        "title": "The 4-Hour Workweek",
+        "author": "Tim Ferriss",
+        "price": "400",
+        "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51iGkLC6jhL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "price": "650",
+        "image_url": "https://m.media-amazon.com/images/I/41q4oi5R9hL.jpg"
+    },
+    {
+        "id": "7",
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "price": "450",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
+    },
+    {
+        "id": "8",
+        "title": "The Intelligent Investor",
+        "author": "Benjamin Graham",
+        "price": "800",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/91+t0Di07FL.jpg"
+    },
+    {
+        "id": "9",
+        "title": "Start With Why",
+        "author": "Simon Sinek",
+        "price": "500",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71f6jfsUKcL.jpg"
+    }
+]

@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "16747a1d-df4a-4803-8b29-e51110d9b6aa",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE BOOK BY ID Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/delete?id=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"delete"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Book By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/book?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"id\": \"4\",\n        \"title\": \"Atomic Habits\",\n        \"author\": \"James Clear\",\n        \"price\": \"300\",\n        \"image_url\": \"https://prodimage.images-bn.com/pimages/9780735211292_p0_v5_s600x595.jpg\"\n    },\n    {\n        \"id\": \"5\",\n        \"title\": \"The 4-hour workweekk\",\n        \"author\": \"Tim Ferrisss\",\n        \"price\": \"4000\",\n        \"image_url\": \"https://images-eu.ssl-images-amazon.com/images/I/51iGkLC6jhL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg\"\n    }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"5\",\n    \"title\": \"The 4-hour work week\",\n    \"author\": \"Tim Ferrisss\",\n    \"price\": \"4000\",\n    \"image_url\": \"https://images-eu.ssl-images-amazon.com/images/I/51iGkLC6jhL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
