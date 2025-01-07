@@ -1,5 +1,5 @@
 # Book Management API
-his project is a RESTful API for managing a collection of books. It allows users to perform CRUD operations on a book database.
+This project is a RESTful API for managing a collection of books. It allows users to perform CRUD operations on a book database.
 
 # Features
 Retrieve all books in the collection.
